@@ -1,0 +1,68 @@
+name: Fehllauf melden
+description: Der Skill hat an einer konkreten Stelle etwas Falsches getan
+title: "[Fehllauf] "
+labels: ["fehllauf"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ein Fehllaufbericht ist der wertvollste Beitrag zu diesem Skill.
+        Entscheidend ist nicht das falsche Ergebnis, sondern die Stelle im
+        Ablauf, an der es abgebogen ist.
+
+  - type: dropdown
+    id: modul
+    attributes:
+      label: In welchem Modul?
+      options:
+        - SA — Situationsanalyse
+        - PE — Problemeingrenzung
+        - AL — Alternative Lösungssuche
+        - LA — Lösungsauswahl
+        - TA — Tragweitenanalyse
+        - EU — Entscheiden / Umsetzen
+        - NL — Nacharbeiten / Lernen
+        - Informationscheck zwischen zwei Modulen
+        - Start / Fortsetzen eines Vorgangs
+        - unklar
+    validations:
+      required: true
+
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Was hätte passieren sollen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: passiert
+    attributes:
+      label: Was ist stattdessen passiert?
+    validations:
+      required: true
+
+  - type: textarea
+    id: erkennbar
+    attributes:
+      label: Woran wäre es im Ablauf erkennbar gewesen?
+      description: >-
+        Gab es eine Ampel, eine übersprungene Prüfung, eine nicht gestellte
+        Frage? Diese Antwort entscheidet, ob sich eine Regel ändern lässt.
+
+  - type: dropdown
+    id: ablage
+    attributes:
+      label: Ablagemodus
+      options:
+        - Projekt (Standard)
+        - Vault
+        - konfiguriert über SPALTEN_ABLAGE
+        - weiß nicht
+
+  - type: textarea
+    id: artefakte
+    attributes:
+      label: Auszug aus Vorgang oder Modulergebnis
+      description: Gern gekürzt. Bitte keine vertraulichen Inhalte.
+      render: markdown

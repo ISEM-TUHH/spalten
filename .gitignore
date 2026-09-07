@@ -1,0 +1,13 @@
+# Laufende SPALTEN-Vorgaenge gehoeren nicht ins Skill-Repo
+spalten/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editoren
+.vscode/
+.idea/
+*.swp
+*~

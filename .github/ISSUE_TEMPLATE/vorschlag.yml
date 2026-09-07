@@ -1,0 +1,52 @@
+name: Vorschlag
+description: Eine Regel, ein Werkzeug oder eine Formulierung ändern
+title: "[Vorschlag] "
+labels: ["vorschlag"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Der Skill ist bewusst kurz gehalten — jede zusätzliche Anweisung macht
+        die übrigen unwahrscheinlicher befolgt. Deshalb die Frage nach dem
+        Anlass: eine Regel, die noch nie gebraucht wurde, verschlechtert den
+        Skill.
+
+        Was bewusst **nicht** aufgenommen wird, steht in `CONTRIBUTING.md`;
+        was schon einmal abgewogen und verworfen wurde, in `DESIGN.md`.
+
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: Was soll sich ändern?
+    validations:
+      required: true
+
+  - type: textarea
+    id: anlass
+    attributes:
+      label: Welcher reale Lauf hat das nötig gemacht?
+      description: >-
+        Wenn es keinen gibt, sag das ruhig — dann ist es eine Idee für später,
+        und das ist auch eine Antwort.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: art
+    attributes:
+      label: Was wird berührt?
+      options:
+        - IRON RULE oder Ablauf (Major)
+        - Modul, Rolle oder Werkzeug (Minor)
+        - Formulierung oder Dokumentation (Patch)
+    validations:
+      required: true
+
+  - type: textarea
+    id: dagegen
+    attributes:
+      label: Was spricht dagegen?
+      description: >-
+        Der beste Vorschlag nennt sein eigenes Gegenargument. Falls die
+        Entscheidungstabelle in DESIGN.md den Punkt schon behandelt: welches
+        Argument fehlt dort?

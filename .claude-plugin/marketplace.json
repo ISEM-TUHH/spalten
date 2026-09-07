@@ -1,0 +1,19 @@
+{
+  "name": "spalten",
+  "displayName": "SPALTEN — Strukturierte Problemlösung",
+  "description": "Bringt die SPALTEN-Methodik (Albers et al., ICED 05) nach Claude Code. Der Skill arbeitet das Problem in sieben Modulen selbst durch, prüft nach jedem Modul die Informationslage und das Nutzen-Aufwand-Verhältnis, und hält nur dort an, wo tatsächlich eine Entscheidung fällt: Zielzustand, Lösungswahl, Umsetzung.",
+  "category": "productivity",
+  "tags": [
+    "spalten",
+    "problemloesung",
+    "problem-solving",
+    "entscheidung",
+    "produktentwicklung",
+    "engineering-design",
+    "human-in-the-loop",
+    "methodik",
+    "deutsch"
+  ],
+  "requiredContext": [],
+  "externalDependencies": []
+}

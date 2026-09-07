@@ -1,0 +1,12 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Die Methodik selbst
+    url: https://www.consulting-life.de/spalten-methode/
+    about: >-
+      Fragen zur SPALTEN-Methodik als solcher betreffen nicht diesen Skill.
+      Die Methodik stammt vom IPEK (KIT), beschrieben in Albers et al., ICED 05.
+  - name: Designentscheidungen nachlesen
+    url: https://github.com/FeFoe/spalten/blob/main/DESIGN.md
+    about: >-
+      Warum es nur einen Command gibt, warum zwei Ideengeber, warum kein
+      Pflicht-Gate nach jedem Modul — samt dem, was dafür verworfen wurde.

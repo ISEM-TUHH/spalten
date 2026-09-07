@@ -1,0 +1,34 @@
+{
+  "name": "spalten",
+  "version": "1.0.0",
+  "description": "SPALTEN-Problemlösung für Claude Code: sieben Module von der Situationsanalyse bis zum Lernen, automatischer Informationscheck zwischen den Modulen, modulweise wechselndes Problemlösungsteam und harte Gates an den Entscheidungspunkten.",
+  "author": "Felix Förster",
+  "homepage": "https://github.com/FeFoe/spalten",
+  "repository": "https://github.com/FeFoe/spalten",
+  "license": "MIT",
+  "keywords": [
+    "spalten",
+    "problemloesung",
+    "problem-solving",
+    "engineering-design",
+    "human-in-the-loop",
+    "deutsch"
+  ],
+  "skills": [
+    {
+      "name": "spalten",
+      "path": "SKILL.md",
+      "description": "Problemlösung nach SPALTEN in sieben Modulen, mit Informationscheck und Entscheidungs-Gates"
+    }
+  ],
+  "agents": [
+    "agents/ic_check.md",
+    "agents/sa_agent.md",
+    "agents/pe_agent.md",
+    "agents/al_agent.md",
+    "agents/la_agent.md",
+    "agents/ta_agent.md",
+    "agents/eu_agent.md",
+    "agents/nl_agent.md"
+  ]
+}

@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+title: "SPALTEN — Skill für Claude Code"
+message: >-
+  Wenn Sie diesen Skill verwenden, zitieren Sie bitte sowohl den Skill
+  als auch die zugrunde liegende Methodik von Albers et al. (2005).
+type: software
+authors:
+  - family-names: Förster
+    given-names: Felix
+    affiliation: >-
+      Institut für Smart Engineering und Machine Elements (ISEM),
+      Technische Universität Hamburg
+abstract: >-
+  Ein Skill für Claude Code, der die SPALTEN-Problemlösungsmethodik
+  (Albers et al., ICED 05) als agentischen Ablauf umsetzt: sieben Module
+  von der Situationsanalyse bis zum Lernen, ein automatischer
+  Informationscheck zwischen je zwei Modulen, ein modulweise wechselndes
+  Problemlösungsteam aus getrennten Subagenten und harte Gates an den
+  drei Entscheidungspunkten. Läuft ohne Vorbedingungen; ein angebundener
+  Wissensspeicher wird genutzt, ist aber nicht erforderlich.
+keywords:
+  - SPALTEN
+  - Problemlösung
+  - problem solving
+  - Produktentwicklung
+  - engineering design
+  - Claude Code
+  - AI agent
+  - human-in-the-loop
+license: MIT
+repository-code: "https://github.com/FeFoe/spalten"
+version: 1.0.0
+date-released: "2026-09-07"
+references:
+  - type: conference-paper
+    title: >-
+      SPALTEN Problem Solving Methodology in the Product Development
+    authors:
+      - family-names: Albers
+        given-names: Albert
+      - family-names: Burkardt
+        given-names: Norbert
+      - family-names: Meboldt
+        given-names: Mirko
+      - family-names: Saak
+        given-names: Marcus
+    collection-title: >-
+      Proceedings of the 15th International Conference on Engineering
+      Design (ICED 05)
+    conference:
+      name: International Conference on Engineering Design (ICED 05)
+      city: Melbourne
+      country: AU
+    year: 2005
