@@ -36,4 +36,4 @@ stehen mitsamt dem Verworfenen in [`DESIGN.md`](DESIGN.md).
 - Methodenkoffer mit „nimm, wenn"-Auswahlspalte je Werkzeug.
 - Kurzläufe und Rücksprungregel: der Ablauf ist iterativ, nicht linear.
 
-[1.0.0]: https://github.com/FeFoe/spalten/releases/tag/v1.0.0
+[1.0.0]: https://github.com/ISEM-TUHH/spalten/releases/tag/v1.0.0

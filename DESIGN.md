@@ -7,9 +7,11 @@ begangen und verlassen wurden.
 
 ## Quellen
 
-- **Albers, A.; Burkardt, N.; Meboldt, M.; Saak, M.:** *SPALTEN Problem Solving
-  Methodology in the Product Development.* International Conference on Engineering
-  Design (ICED 05), Melbourne 2005.
+- **Albers, Albert; Burkardt, Norbert; Meboldt, Mirko; Saak, Marcus:** *SPALTEN
+  Problem Solving Methodology in the Product Development.* In: Samuel, A.; Lewis, W.
+  (Hrsg.): DS 35 — Proceedings of ICED 05, the 15th International Conference on
+  Engineering Design, Melbourne, 15.–18.08.2005, S. 553–554 (Executive Summary;
+  Volltext auf dem Konferenzmedium als `DS35_317.49`).
   Übernommen: Problemdefinition (Ist/Ziel/Weg), sieben Module, Honigwabenmodell,
   Informationscheck, modulweise Besetzung des Problemlösungsteams, PCIR,
   ausdrückliche Erlaubnis zum Modulübersprung, iterativer statt linearer Ablauf.

@@ -75,13 +75,13 @@ dort weiter, wo abgebrochen wurde.
 Voraussetzung: [Claude Code](https://claude.com/claude-code). Sonst nichts.
 
 ```bash
-git clone https://github.com/FeFoe/spalten.git ~/.claude/skills/spalten
+git clone https://github.com/ISEM-TUHH/spalten.git ~/.claude/skills/spalten
 ```
 
 Unter Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/FeFoe/spalten.git "$env:USERPROFILE\.claude\skills\spalten"
+git clone https://github.com/ISEM-TUHH/spalten.git "$env:USERPROFILE\.claude\skills\spalten"
 ```
 
 Für einen einzelnen Arbeitsbereich statt global: nach `.claude/skills/spalten`
@@ -158,19 +158,24 @@ DESIGN.md                     Designentscheidungen samt Verworfenem
 
 ## Quellen
 
-- Albers, A.; Burkardt, N.; Meboldt, M.; Saak, M.: *SPALTEN Problem Solving
-  Methodology in the Product Development.* Proceedings of ICED 05, Melbourne 2005.
+- Albers, Albert; Burkardt, Norbert; Meboldt, Mirko; Saak, Marcus: *SPALTEN Problem
+  Solving Methodology in the Product Development.* In: Samuel, A.; Lewis, W. (Hrsg.):
+  DS 35 — Proceedings of ICED 05, the 15th International Conference on Engineering
+  Design, Melbourne, 15.–18.08.2005, S. 553–554 (Executive Summary; Volltext auf dem
+  Konferenzmedium als `DS35_317.49`).
+  [Design Society](https://www.designsociety.org/publication/23010/spalten_problem_solving_methodology_in_the_product_development)
 - [SPALTEN-Methode — consulting-life.de](https://www.consulting-life.de/spalten-methode/):
   Werkzeugzuordnung je Schritt.
 
-Die Methodik stammt vom IPEK (Institut für Produktentwicklung, KIT). Dieser Skill
+Die Methodik stammt vom IPEK — Institut für Produktentwicklung, zur Zeit der
+Veröffentlichung an der Universität Karlsruhe (TH), heute Teil des KIT. Dieser Skill
 ist eine eigenständige Umsetzung für Claude Code und steht in keiner Verbindung zum
 KIT.
 
 ## Mitwirken
 
 Fehlerberichte und Vorschläge über die
-[Issues](https://github.com/FeFoe/spalten/issues), Änderungen über Pull Requests —
+[Issues](https://github.com/ISEM-TUHH/spalten/issues), Änderungen über Pull Requests —
 siehe [CONTRIBUTING.md](CONTRIBUTING.md). Der Skill besteht ausschließlich aus
 Prosa: wer eine Regel ändert, sollte sagen können, welcher reale Fehllauf sie
 nötig gemacht hat.

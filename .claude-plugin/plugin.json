@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "SPALTEN-Problemlösung für Claude Code: sieben Module von der Situationsanalyse bis zum Lernen, automatischer Informationscheck zwischen den Modulen, modulweise wechselndes Problemlösungsteam und harte Gates an den Entscheidungspunkten.",
   "author": "Felix Förster",
-  "homepage": "https://github.com/FeFoe/spalten",
-  "repository": "https://github.com/FeFoe/spalten",
+  "homepage": "https://github.com/ISEM-TUHH/spalten",
+  "repository": "https://github.com/ISEM-TUHH/spalten",
   "license": "MIT",
   "keywords": [
     "spalten",

@@ -28,7 +28,7 @@ keywords:
   - AI agent
   - human-in-the-loop
 license: MIT
-repository-code: "https://github.com/FeFoe/spalten"
+repository-code: "https://github.com/ISEM-TUHH/spalten"
 version: 1.0.0
 date-released: "2026-09-07"
 references:
@@ -44,11 +44,25 @@ references:
         given-names: Mirko
       - family-names: Saak
         given-names: Marcus
+    editors:
+      - family-names: Samuel
+        given-names: A.
+      - family-names: Lewis
+        given-names: W.
     collection-title: >-
-      Proceedings of the 15th International Conference on Engineering
-      Design (ICED 05)
+      DS 35: Proceedings of ICED 05, the 15th International Conference on
+      Engineering Design
     conference:
-      name: International Conference on Engineering Design (ICED 05)
+      name: 15th International Conference on Engineering Design (ICED 05)
       city: Melbourne
       country: AU
+      date-start: "2005-08-15"
+      date-end: "2005-08-18"
     year: 2005
+    start: 553
+    end: 554
+    url: >-
+      https://www.designsociety.org/publication/23010/spalten_problem_solving_methodology_in_the_product_development
+    notes: >-
+      Seiten 553-554 sind die Executive Summary im gedruckten Band; der
+      Volltext liegt auf dem Konferenzmedium als DS35_317.49.
